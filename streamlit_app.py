@@ -7,7 +7,7 @@ my_insert_stmt = """ insert into smoothies.public.orders(ingredients)
             values ('""" + ingredients_string + """')"""
 
 # Write directly to the app
-st.title(f":cup_with_straw: Customize Your Smoothie! :cup_with_straw:")
+st.title('My Parents New Healthy Diner')
 st.write(
   """Choose the fruits you want in yout Smoothie!
   """
